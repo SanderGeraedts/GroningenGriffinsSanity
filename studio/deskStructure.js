@@ -21,10 +21,6 @@ export default () =>
         .schemaType("person")
         .child(S.documentTypeList("person").title("People")),
       S.listItem()
-        .title("Categories")
-        .schemaType("category")
-        .child(S.documentTypeList("category").title("Categories")),
-      S.listItem()
         .title("Team Info")
         .child(
           S.editor()

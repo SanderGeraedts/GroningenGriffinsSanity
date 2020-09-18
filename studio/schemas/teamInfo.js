@@ -17,11 +17,6 @@ export default {
       name: "email",
       title: "Email",
       type: "email"
-    },
-    {
-      title: "Location Field",
-      name: "location",
-      type: "geopoint"
     }
   ]
 };

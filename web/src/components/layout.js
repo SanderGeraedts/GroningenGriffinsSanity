@@ -12,8 +12,6 @@ const Layout = ({ children, teamInfo, onHideNav, onShowNav, showNav, siteTitle }
             <div>
               {teamInfo.name}
               <br />
-              {teamInfo.location.lat}
-              {teamInfo.location.lng}
             </div>
           )}
         </div>
